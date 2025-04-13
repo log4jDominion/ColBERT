@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: colbert-ai
+Version: 0.2.20
+Summary: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT
+Home-page: https://github.com/stanford-futuredata/ColBERT
+Author: Omar Khattab
+Author-email: okhattab@stanford.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: faiss-gpu
+Provides-Extra: faiss-cpu
+Provides-Extra: torch
+License-File: LICENSE
+
 <p align="center">
   <img align="center" src="docs/images/colbertofficial.png" width="430px" />
 </p>
@@ -240,3 +256,5 @@ http://localhost:8893/api/search?query=Who won the 2022 FIFA world cup&k=25
 ## Acknowledgments
 
 ColBERT logo designed by Chuyi Zhang.
+
+
